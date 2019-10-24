@@ -22,7 +22,7 @@ class Waiter
     meal.all.select do | meal |
       meal.waiter==self
     end
-    
+    meal.waiter
   end
 
   def best_tipper
