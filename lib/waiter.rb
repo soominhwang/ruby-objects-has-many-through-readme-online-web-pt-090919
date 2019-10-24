@@ -20,7 +20,7 @@ class Waiter
 
   def meals
     meal.all.select do | meal |
-      meal.customer==self
+      meal.waiter==self
     end
   end
 
